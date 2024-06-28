@@ -5,7 +5,7 @@ const cors = require('cors')
 const sequelize = require('./src/db/sequelize')
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = 3001
 const corsOptions = {
   origin: 'http://localhost:3000', // votre domaine client
   credentials: true, // pour autoriser l'envoi des cookies
